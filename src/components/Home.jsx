@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from './header'
+import Code from './code'
 
 const Home = () => {
   return (
     <>
     <Header/>
+    <Code/>
     </>
   )
 }
