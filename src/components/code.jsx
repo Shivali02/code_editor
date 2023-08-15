@@ -15,34 +15,29 @@ const Code = () => {
 
   return (
     <Container>
-      <Editor 
-      heading="HTML"
-       icon="/" 
-       value={html}
-       onChange={setHtml} 
-         language="xml"
-          />
       <Editor
-       heading="CSS" 
-       icon="*" 
-       value={css}
-       onChange={setCss}  
-        language="css" 
-        />
-      <Editor 
-      heading="JavaScript"
-       icon="{}" 
-       value={js}
-       onChange={setJs}
-           language="javascript"
-            />
+        heading="HTML"
+        icon="/"
+        value={html}
+        onChange={setHtml}
+        language="xml"
+      />
+      <Editor
+        heading="CSS"
+        icon="*"
+        value={css}
+        onChange={setCss}
+        language="css"
+      />
+      <Editor
+        heading="JavaScript"
+        icon="{}"
+        value={js}
+        onChange={setJs}
+        language="javascript"
+      />
     </Container>
   );
 };
 
 export default Code;
-
-
-
-
-
